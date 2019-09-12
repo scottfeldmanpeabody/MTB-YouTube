@@ -45,4 +45,37 @@ In the plot on the left, there seems to be a roughtly linear relationship betwee
 
 ![views by videos](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/channelViews_by_videoCount.png)
 
-When looking at views vs. videos uploaded, there may be two clusters that emerge: those that have higher views per subscriber (e.g Seth's Bike Hacks and IFHT) and those that have fewer (e.g. Global Mountain Bike Network). Zooming in to the smaller channels (chart on the right), a magnified view of this apparent phenomenon is seen. Are there other factors that can identify these two camps?
+When looking at views vs. videos uploaded, there may be two clusters that emerge: those that have higher views per subscriber (e.g Fabio Wibmer, Seth's Bike Hacks, IFHT) and those that have fewer (e.g. Global Mountain Bike Network, Sam Pilgrim). Zooming in to the smaller channels (chart on the right), a magnified view of this apparent phenomenon is seen. Are there other factors that can identify these two camps?
+
+### Video Popularity
+
+Again, the focus here is channel views, not subscribers, because views leads to income. Subcribers may drive views (and vice versa), but ultimately, creators don't get paid based on subscribers.
+
+![histogram of views](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/hist_views_per_video.png)
+
+Several variables were explored to see if they could explain video views. Ultimately, it looked like the pattern of views by these variables simply followed the distribution of the variables themselves. Shown below, is the relationship between the video views and word counts in the video title and video description.
+
+![views vs. word counts](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/video_views_vs_word_counts.png)
+
+Thought there does seem to be a patter to the scatter plots on the left, they seem to just follow the distribution of the word counts shown in the histograms on the right.
+
+Likewise, there doesn't seem to be a relationship between video duration and number of views:
+
+![views vs. video duration](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/video_views_vs_duration.png)
+
+While there are a lot of popular videos around 10 minutes, there are just plain a lot of videos that are made of a length of about 10 minutes. Incidentally, I believe this is the length that YouTube starts allowing mid-roll ads, potentially leading to higer income for that creator.
+
+A priori, one might suspect that videos that have been out longer tend to have more views. After all, they've had more time to get those views. However, this seems to not be the case:
+
+![views vs. time released](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/video_views_vs_days_since_released.png)
+
+Zooming in on this data, there seems to be a flat distribution of views vs. days since the video has been released, indicating that most views come soon after release, and also that, in general, creators shouldn't count on an overwhelming increase in income over time once they've built up a large catalog.
+
+### Word Analysis
+
+## Further Work
+
+There are many places one could go with this work to try to identify what helps make videos popular other than the content iteself. Some ideas:
+* NLP on video titles and descriptions to see if one can pull out predictors of specific words (if any) that lead to higher views. Include whether using ALL CAPS and or lots of exclamation points!!!! nets more views. What about question marks???
+* Explore the relationships between views and engagement (likes, dislikes, comments)
+* Use of image analysis to pull out features of thumbnails (faces, first person view of the handlebars, trail features)
