@@ -11,7 +11,7 @@ An anecdote to get started: The most popular MTB YouTube channel is Fabio Wibmer
 
 The *second* most popular MTB channel is "Seth's Bike Hacks," with 1.5M+ subscribers. In contrast to Fabio, Seth did not start his channel as a pro, but simply as some dude from Ft. Lauderdale. Seth has been on top of MTB YouTube for awhile now and regularly gets over 1M views per video. Somehow, he grew with channel without being in a hotbed of mountain biking like Colorado or Utah, not Florida. Is his success all intrinsic to the quality of his videos or does he know something about how to position his videos to gain maximum views?
 
-![alt text](https://i.ytimg.com/vi/PrtDD7VHe3g/maxresdefault.jpg)
+![10 Bike Hacks that will Blow Your Mind! 🚴🏼 Sorta](https://i.ytimg.com/vi/PrtDD7VHe3g/maxresdefault.jpg)
 [10 Bike Hacks that will Blow Your Mind! 🚴🏼 Sorta](https://www.youtube.com/watch?v=PrtDD7VHe3g)
 
 ## Data
@@ -24,4 +24,25 @@ YouTube provides an [API](https://developers.google.com/youtube/v3/) for develop
 3. Aggregate channel data was pulled from YouTube's API. This includes things like subscriber count and total views. Importantly, it also includes the "uploads" playlist, which allowed me to access all the videos from a particular channel
 4. Information on the individual videos associated with the channels identified above was pulled including descriptions and runtimes, as well as statics such as views and likes.
 
+Due to quota limitations from Youtube, a modest 23 channels were pulled with iformation from a total of 7850 videos.
 
+## Exploratory Data Analysis
+
+### Channel Data
+
+First, the channels with the top views, subscribers, and number of video uploads were identified.
+![channelView Pareto Plot](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/pareto_channelViews.png)
+
+![subscriber Pareto Plot](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/pareto_subscriberCount.png)
+
+![uploads Pareto Plot](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/pareto_videoCount.png)
+
+Views are what drives a channel's revenue from YouTube, so the relationships between views and other factors was plotted. In the following charts, all channels in the sample group were plotted on the left with a smaller scale plotted on the right so that specific channels can be distinguished:
+
+![views by subcribers](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/channelViews_by_subscriberCount.png)
+
+In the plot on the left, there seems to be a roughtly linear relationship between subscribers and views (orange line). This relationship is strengthened if Fabio Wibmer is eliminated (green line). My subspicion is that Fabio has "transcended" the genre of mountain biking with a number of viral videos which has earned him extra subscribers, but those subscribers 
+
+![views by videos](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/channelViews_by_videoCount.png)
+
+When looking at views vs. videos uploaded, there may be two clusters that emerge: those that have higher views per subscriber (e.g Seth's Bike Hacks and IFHT) and those that have fewer (e.g. Global Mountain Bike Network). Zooming in to the smaller channels (chart on the right), a magnified view of this apparent phenomenon is seen. Are there other factors that can identify these two camps?
