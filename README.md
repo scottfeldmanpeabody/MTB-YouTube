@@ -16,4 +16,12 @@ The *second* most popular MTB channel is "Seth's Bike Hacks," with 1.5M+ subscri
 
 ## Data
 
-YouTube 
+YouTube provides an [API](https://developers.google.com/youtube/v3/) for developers to access it's data. It's mostly very well [documented](https://developers.google.com/youtube/v3/docs/) with a coder builder for multiple languages, including Python (used here). Developers can sign up for projects and get an API Key to access publically available data. There's also a function for OAuth 2.0 authorization which can be used to access private information on specific channels given login credentials. Only the publically available data was used here.
+
+### Data Pipeline
+1. Channels associated with mountain biking were searched for using the API search function
+2. Specific channels were hand-picked from the resulting list due to items of interest (see the motivation above, I'm less interested in GoPro vidoes that happen to be about mountain biking than I am in creators dedicated to the subject)
+3. Aggregate channel data was pulled from YouTube's API. This includes things like subscriber count and total views. Importantly, it also includes the "uploads" playlist, which allowed me to access all the videos from a particular channel
+4. Information on the individual videos associated with the channels identified above was pulled including descriptions and runtimes, as well as statics such as views and likes.
+
+
