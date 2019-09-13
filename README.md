@@ -4,12 +4,12 @@
 
 I'm fascinated with YouTube and how it works. Not only the content of the videos themselves, but the "inside baseball" story of how and why channels become popular. Quite neatly juxtaposing YouTube with my love of cycling is the subject of mountain bike (MTB) videos on YouTube. 
 
-An anecdote to get started: The most popular MTB YouTube channel is Fabio Wibmer, with 2.7M+ subscribers. Unsuprisingly, Fabio is a pro, is sponsored by Red Bull, and makes videos with huge production costs that involve things like riding his bike down a ski resort:
+An anecdote to get started: The most popular MTB YouTube channel is Fabio Wibmer, with 2.7M+ subscribers. Unsuprisingly, Fabio is a pro, is sponsored by Red Bull, and makes videos with huge production costs that involve things like jumping out of helicopters and riding his bike down ski resorts:
 
 ![alt text](https://i.ytimg.com/vi/1CR0QmCaMTs/maxresdefault.jpg)
 [Fabio Wibmer - Tabio Wibmer - Fabiolous Escape 2](https://www.youtube.com/watch?v=1CR0QmCaMTs)
 
-The *second* most popular MTB channel is "Seth's Bike Hacks," with 1.5M+ subscribers. In contrast to Fabio, Seth did not start his channel as a pro, but simply as some dude from Ft. Lauderdale. Seth has been on top of MTB YouTube for awhile now and regularly gets over 1M views per video. Somehow, he grew with channel without being in a hotbed of mountain biking like Colorado or Utah, not Florida. Is his success all intrinsic to the quality of his videos or does he know something about how to position his videos to gain maximum views?
+The *second* most popular MTB channel is "Seth's Bike Hacks," with 1.5M+ subscribers. In contrast to Fabio, Seth did not start his channel as a pro, but simply as some dude from Ft. Lauderdale who figures out ways to stop frayed cables and how to run away from gnats effectively. Despite his humble video begginings, Seth has been on top of MTB YouTube for awhile now and regularly gets over 1M views per video. Somehow, he grew with channel without being in a hotbed of mountain biking like Colorado or Utah, not Florida. Is his success all intrinsic to the quality of his videos or does he know something about how to position his videos to gain maximum views?
 
 ![10 Bike Hacks that will Blow Your Mind! 🚴🏼 Sorta](https://i.ytimg.com/vi/PrtDD7VHe3g/maxresdefault.jpg)
 [10 Bike Hacks that will Blow Your Mind! 🚴🏼 Sorta](https://www.youtube.com/watch?v=PrtDD7VHe3g)
@@ -87,23 +87,25 @@ There's a very high overlap with the channel title itself!
 
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_all_channel_titles.png)
 
-Finally, a comparison was done between the title words from all videos and the title words from the videos in the top 5% popularity for that channel. First the distribution of video views is plotted then the two word clouds.
-
-![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histBKXC.png)
+Finally, a comparison was done between the title words from all videos and the title words from the videos in the top 5% popularity for that channel. First the two word clouds for each channel are plotted, followed by a histogram of the views per video.
 
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_BKXC.png)
 
-![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histSYDandMACKY.png)
+![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histBKXC.png)
 
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloudSYDandMACKY.png)
 
-![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histSethsBikeHacks.png)
+![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histSYDandMACKY.png)
 
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_SethsBikeHacks.png)
 
-![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histGMBN.png)
+![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histSethsBikeHacks.png)
 
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloudGMBN.png)
+
+![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histGMBN.png)
+
+One thing that stands out about the distributions is that they all have a steep rise on the left side with a long tail to the right. The scale is cut off, but most of them have one or two viral videos with close to a million views or more.
 
 ## Further Work
 
