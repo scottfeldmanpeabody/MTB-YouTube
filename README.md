@@ -43,11 +43,19 @@ Views are what drives a channel's revenue from YouTube, so the relationships bet
 
 ![views by subcribers](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/channelViews_by_subscriberCount.png)
 
-In the plot on the left, there seems to be a roughtly linear relationship between subscribers and views (orange line). This relationship is strengthened if Fabio Wibmer is eliminated (green line). My subspicion is that Fabio has "transcended" the genre of mountain biking with a number of viral videos which has earned him extra subscribers, but those subscribers 
+In the plot on the left, there seems to be a roughtly linear relationship between subscribers and views (orange line). This relationship is strengthened if Fabio Wibmer is eliminated (green line). My subspicion is that Fabio has "transcended" the genre of mountain biking with a number of viral videos which has earned him extra subscribers, but those subscribers don't necessarily result in more views.
 
-![views by videos](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/channelViews_by_videoCount.png)
+![views per subcriber](https://github.com/scottfeldmanpeabody/MTB-YouTube-EDA/blob/master/images/viewsPerSubscriber.png)
+
+Indeed, when looking at the metric of #views / #subscribers, there is a variation of over 2.5 times of the channels studied. Interestingly, it's some of the smaller channels that are higher in this metric.
+
+![views by videos](https://github.com/scottfeldmanpeabody/MTB-YouTube-EDA/blob/master/images/channelViews_by_videoCount.png)
 
 When looking at views vs. videos uploaded, there may be two clusters that emerge: those that have higher views per subscriber (e.g Fabio Wibmer, Seth's Bike Hacks, IFHT) and those that have fewer (e.g. Global Mountain Bike Network, Sam Pilgrim). Zooming in to the smaller channels (chart on the right), a magnified view of this apparent phenomenon is seen. Are there other factors that can identify these two camps?
+
+![views by videos](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/viewsPerVideo.png)
+
+Viewing this as a bar plot of the quotient #views / #videos, one can see a large variation in the number of views per video uploaded. Some of the most popular channels have the highest value, but, notably, Global Mountain Bike Network has very few. Perhaps this channels strategy of near-daily uploads might be better spent on making fewer, higher quality videos? In contrast, IFHT has by far the highest views per video. This channel is known for their high production value.
 
 ### Video Popularity
 
