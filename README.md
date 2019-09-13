@@ -87,7 +87,7 @@ There's a very high overlap with the channel title itself!
 
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_all_channel_titles.png)
 
-Finally, a comparison was done between the title words from all videos and the title words from the videos in the top 5% popularity for that channel. First the two word clouds for each channel are plotted, followed by a histogram of the views per video.
+Finally, a comparison was done between the title words from all videos and the title words from the videos in the top 5% popularity for that channel. First the two word clouds for each channel are plotted, followed by a histogram of the views per video. In these histograms the top 5% most popular videos are colored red.
 
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_BKXC.png)
 
