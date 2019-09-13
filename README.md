@@ -63,15 +63,47 @@ Likewise, there doesn't seem to be a relationship between video duration and num
 
 ![views vs. video duration](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/video_views_vs_duration.png)
 
-While there are a lot of popular videos around 10 minutes, there are just plain a lot of videos that are made of a length of about 10 minutes. Incidentally, I believe this is the length that YouTube starts allowing mid-roll ads, potentially leading to higer income for that creator.
+While there are a lot of popular videos around 10 minutes (red line), there are just plain a lot of videos that are made of a length of about 10 minutes. Incidentally, I believe this is the length that YouTube starts allowing mid-roll ads, potentially leading to higer income for that creator.
 
 A priori, one might suspect that videos that have been out longer tend to have more views. After all, they've had more time to get those views. However, this seems to not be the case:
 
 ![views vs. time released](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/video_views_vs_days_since_released.png)
 
+Note: the dropoff at ~1300 days is probably due to when many of the channels selected for this analysis were started.
+
 Zooming in on this data, there seems to be a flat distribution of views vs. days since the video has been released, indicating that most views come soon after release, and also that, in general, creators shouldn't count on an overwhelming increase in income over time once they've built up a large catalog.
 
 ### Word Analysis
+
+There is a clear trend on words that in video titles...
+
+![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_all_video_titles.png)
+
+...and descriptions...
+
+![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_all_descriptions.png)
+
+There's a very high overlap with the channel title itself!
+
+![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_all_channel_titles.png)
+
+Finally, a comparison was done between the title words from all videos and the title words from the videos in the top 5% popularity for that channel. First the distribution of video views is plotted then the two word clouds.
+
+![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histBKXC.png)
+
+![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_BKXC.png)
+
+![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histSYDandMACKY.png)
+
+![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloudSYDandMACKY.png)
+
+![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histSethsBikeHacks.png)
+
+![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_SethsBikeHacks.png)
+
+![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histGMBN.png)
+
+![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloudGMBN.png)
 
 ## Further Work
 
