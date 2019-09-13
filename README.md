@@ -113,6 +113,8 @@ Top three videos from BKXC:
 2. [The butt-puckering boardwalks of Ft. Bill | Mountain biking Top Chief at Fort William](https://www.youtube.com/watch?v=sAOhdtTVteo): 2M views
 3. [What are we getting into? | Mountain Biking Snowdon](https://www.youtube.com/watch?v=w2sMFZIB6zA): 1.1M views 
 
+Is there a theme of "scary" content? It's difficult to say at this point whether this is causal or even a non-coincidental correlation.
+
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloudSYDandMACKY.png)
 
 ![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histSYDandMACKY.png)
