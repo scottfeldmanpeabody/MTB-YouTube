@@ -115,6 +115,8 @@ Top three videos from BKXC:
 
 Is there a theme of "scary" content? It's difficult to say at this point whether this is causal or even a non-coincidental correlation.
 
+Word clouds and distributins from select other channels:
+
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloudSYDandMACKY.png)
 
 ![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histSYDandMACKY.png)
