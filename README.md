@@ -1,4 +1,4 @@
-# MTB-YouTube
+# MTB-YouTube: What leads to more views?
 
 ## Background
 
@@ -113,7 +113,10 @@ As for the word clouds, there may be more specificity (e.g. riding locations) to
 
 ## Further Work
 
+None of the features studied clearly resulted in more views beyond popular channels are popular channels. The advice here to aspiring YouTubers would be to focus on exciting content.
+
 There are many places one could go with this work to try to identify what helps make videos popular other than the content iteself. Some ideas:
 * NLP on video titles and descriptions to see if one can pull out predictors of specific words (if any) that lead to higher views. Include whether using ALL CAPS and or lots of exclamation points!!!! nets more views. What about question marks???
 * Explore the relationships between views and engagement (likes, dislikes, comments)
 * Use of image analysis to pull out features of thumbnails (faces, first person view of the handlebars, trail features)
+* Look at how subcribers and views have grown with time. Is it specific videos that cause the bumps? To do this retrospectively would require access to individual channels accounts.
