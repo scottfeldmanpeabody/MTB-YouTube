@@ -213,6 +213,9 @@ if __name__ == "__main__":
     df_channels['viewsPerVideo'] = df_channels.apply(lambda row: 
     row.channelViewCount / row.videoCount,axis =1)
 
+    df_channels['viewsPerSubscriber'] = df_channels.apply(lambda row: 
+    row.channelViewCount / row.subscriberCount,axis =1)
+
     '''save file for safe keeping (especially important if we reach  our of API quota)'''
 
     df_channels.to_csv('data/channel_data.csv')

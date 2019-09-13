@@ -73,6 +73,26 @@ def pareto_plot(df,
     plt.tight_layout()
     plt.show();
 
+def sorted_bar_plot(df,x,y):
+
+    dfplot = df[[x, y]]
+    dfsorted = dfplot.sort_values(y, ascending=False)
+
+    #dfplot.head()
+
+    xlabel = x
+    ylabel = y
+
+    x = dfsorted[x].values
+    y = dfsorted[y].values
+
+    fig, ax = plt.subplots(figsize = (12, 6))
+
+    ax.bar(x,y)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    ax.tick_params(axis = 'x', rotation = 90)
+
 def plot_relationships(df, x, y, title=None, xlim=None, ylim=None):
     '''x vs y scatterplot with an uneccesarily complicated name
     '''
