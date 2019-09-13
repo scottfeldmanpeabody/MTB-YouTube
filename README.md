@@ -55,7 +55,7 @@ When looking at views vs. videos uploaded, there may be two clusters that emerge
 
 ![views by videos](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/viewsPerVideo.png)
 
-Viewing this as a bar plot of the quotient #views / #videos, one can see a large variation in the number of views per video uploaded. Some of the most popular channels have the highest value, but, notably, Global Mountain Bike Network has very few. Perhaps this channels strategy of near-daily uploads might be better spent on making fewer, higher quality videos? In contrast, IFHT has by far the highest views per video. This channel is known for their high production value.
+Viewing this as a bar plot of the quotient #views / #videos, one can see a large variation in the number of views per video uploaded. Some of the most popular channels have the highest value, but, notably, Global Mountain Bike Network has very few. Perhaps this channels strategy of near-daily uploads might be better spent on making fewer, higher quality videos? In contrast, Fabio Wibmer and IFHT have by far the highest views per video. IFHT in particular is known for a consistent high production value (Fabio Wibmer has a combination of high production value and simple, vlog style videos). This data furthers the sentiment that focusing on high production value can lead to more views. Had their been access to person-hours per video production, one could make an assessment if this tradeoff is worthwhile from an econmics perspective of video-views / person-hour-to-produce.
 
 ### Video Popularity
 
