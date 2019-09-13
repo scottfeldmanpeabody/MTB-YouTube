@@ -26,6 +26,8 @@ YouTube provides an [API](https://developers.google.com/youtube/v3/) for develop
 
 Due to quota limitations from Youtube, a modest 23 channels were pulled with iformation from a total of 7850 videos.
 
+Though the dataset was almost entirely complete, some cleanup had to be done. Data types had to be defined, ISO8601 datetimes needed to be converted to something useable, and a couple missing values had to be dealt with (in this case they were excluded). In addition to the raw numbers provided by YouTube, some additional variables were calculated such as the views per video and the number of days since video upload.
+
 ## Exploratory Data Analysis
 
 ### Channel Data
