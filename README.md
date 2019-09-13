@@ -119,9 +119,11 @@ One thing that stands out about the distributions is that they all have a steep 
 
 As for the word clouds, there may be more specificity (e.g. riding locations) to the words in the top 5% bucket, but probably because those are pointing to specific videos, not because those words are popular. The only thing obviously systematic is no reference to Global Mountain Bike Network's weekly "Dirt Shed Show" in the top 5% videos. Apparently these weekly shows do not go viral.
 
-## Further Work
+## Conclusions
 
-None of the features studied clearly resulted in more views beyond popular channels are popular channels. The advice here to aspiring YouTubers would be to focus on exciting content.
+None of the features studied clearly resulted in more views beyond popular channels are popular channels. Which isn't to say those features don't exist, just that the magic formula hasn't been found yet. Barring a clear result, the advice here to aspiring YouTubers would be to focus on exciting content. Fabio and Seth are likely on top largely because they make the "best" videos, even if they get there in very different ways.
+
+## Further Work
 
 There are many places one could go with this work to try to identify what helps make videos popular other than the content iteself. Some ideas:
 * NLP on video titles and descriptions to see if one can pull out predictors of specific words (if any) that lead to higher views. Include whether using ALL CAPS and or lots of exclamation points!!!! nets more views. What about question marks???
