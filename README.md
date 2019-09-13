@@ -89,7 +89,7 @@ There is a clear trend on words that in video titles...
 
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_all_video_titles.png)
 
-...and descriptions...
+...and video descriptions...
 
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_all_descriptions.png)
 
@@ -102,6 +102,16 @@ Finally, a comparison was done between the title words from all videos and the t
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloud_BKXC.png)
 
 ![histogram](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/histBKXC.png)
+
+Top three videos from BKXC:
+
+<img src="https://i.ytimg.com/vi/w2sMFZIB6zA/maxresdefault.jpg" width="250"></img>
+<img src="https://i.ytimg.com/vi/sAOhdtTVteo/maxresdefault.jpg" width="250"></img>
+<img src="https://i.ytimg.com/vi/a7ljpOGF-O0/maxresdefault.jpg" width="250"></img>
+
+1. ["That hip jump was sketchy" | Redemption 17 | Episode 7](https://www.youtube.com/watch?v=w2sMFZIB6zA): 2.7M views
+2. [The butt-puckering boardwalks of Ft. Bill | Mountain biking Top Chief at Fort William](https://www.youtube.com/watch?v=sAOhdtTVteo): 2M views
+3. [What are we getting into? | Mountain Biking Snowdon](https://www.youtube.com/watch?v=w2sMFZIB6zA): 1.1M views 
 
 ![wordcloud](https://github.com/scottfeldmanpeabody/MTB-YouTube/blob/master/images/wordcloudSYDandMACKY.png)
 
