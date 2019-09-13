@@ -107,6 +107,8 @@ Finally, a comparison was done between the title words from all videos and the t
 
 One thing that stands out about the distributions is that they all have a steep rise on the left side with a long tail to the right. The scale is cut off, but most of them have one or two viral videos with close to a million views or more.
 
+As for the word clouds, there may be more specificity (e.g. riding locations) to the words in the top 5% bucket, but probably because those are pointing to specific videos, not because those words are popular. The only thing obviously systematic is no reference to Global Mountain Bike Network's weekly "Dirt Shed Show" in the top 5% videos. Apparently these weekly shows do not go viral.
+
 ## Further Work
 
 There are many places one could go with this work to try to identify what helps make videos popular other than the content iteself. Some ideas:
