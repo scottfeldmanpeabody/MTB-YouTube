@@ -311,3 +311,23 @@ def wordcloud_all_vs_top_words_per_channel(df, chan, col, quant):
     ax2.axis("off")
     ax2.set_title('{}% Most Popular Videos'.format(round((1-quant)*100)))
 
+def channel_hist(chan, mostviews, quant):
+    
+    data = create_sub_df(chan,'videoTitle')[0].viewCount
+    
+    fig, ax = plt.subplots()
+
+    N, bins, patches = ax.hist(data,
+                               edgecolor='white', 
+                               linewidth=1, 
+                               bins = 30,
+                               range = (0,mostviews))
+
+    for patch, leftside, rightside in zip(patches, bins[:-1], bins[1:]):
+        if rightside > np.percentile(data,quant):
+            patch.set_facecolor('r')
+    
+    ax.set_xlabel('Views')
+    ax.tick_params(axis = 'x', rotation = 90)
+    ax.set_ylabel('Video Count')
+    ax.set_title('Distribution of Views for {}'.format(chan))
